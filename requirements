@@ -1,0 +1,65 @@
+Requirements for Churn Prediction Project
+1. Software and Libraries
+To implement the churn prediction model, you will need the following software and Python libraries:
+
+Python (>= 3.7)
+
+Python is the programming language used to build the model.
+Jupyter Notebook or JupyterLab
+
+A web-based environment for developing and running code interactively.
+NumPy (>= 1.19)
+
+Used for numerical computations.
+bash
+Copy code
+pip install numpy
+Pandas (>= 1.1)
+
+Used for data manipulation and analysis.
+bash
+Copy code
+pip install pandas
+Scikit-learn (>= 0.24)
+
+Provides various machine learning algorithms, including Logistic Regression, and tools for model evaluation and preprocessing.
+bash
+Copy code
+pip install scikit-learn
+Matplotlib (>= 3.3)
+
+Used for data visualization, including plotting graphs such as the ROC curve.
+bash
+Copy code
+pip install matplotlib
+Seaborn (>= 0.11)
+
+A visualization library based on Matplotlib for more advanced plots and visualizations.
+bash
+Copy code
+pip install seaborn
+2. Project-Specific Requirements
+Dataset:
+
+A dataset containing customer information, behavior metrics, and a Churn label. The dataset should have the following columns (or similar):
+CustomerID
+Churn (target variable)
+Demographic features (e.g., Age, Gender)
+Usage features (e.g., Tenure, MonthlyCharges)
+Interaction features (e.g., CustomerSupportCalls, PaymentDelays)
+Feature Engineering:
+
+Techniques to create new features from existing data that can help improve model performance.
+Data Preprocessing:
+
+Handling missing values.
+Encoding categorical variables.
+Scaling numerical features.
+Machine Learning Model:
+
+Logistic Regression: As a baseline model for predicting churn.
+Model Evaluation Metrics: ROC-AUC score, accuracy, precision, recall, etc.
+3. Hardware Requirements
+Processor: At least a dual-core processor.
+RAM: 4GB or more is recommended for handling medium-sized datasets.
+Storage: Enough storage to save datasets, models, and other project files (10GB or more).
